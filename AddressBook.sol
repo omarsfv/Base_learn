@@ -4,8 +4,6 @@ pragma solidity ^0.8.20;
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract AddressBook is Ownable(msg.sender) {
-    // Define a private salt value for internal use
-    string private salt = "value"; 
 
     // Define a struct to represent a contact
     struct Contact {
