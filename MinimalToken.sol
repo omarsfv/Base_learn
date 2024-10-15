@@ -3,7 +3,6 @@ pragma solidity ^0.8.20;
 
 // Contract for an unburnable token
 contract UnburnableToken {
-    string private salt = "value"; // A private string variable
 
     // Brand label for the token contract
     string public brandLabel = "bigshort.base.eth"; // Adding the brand label
